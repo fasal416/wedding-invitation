@@ -40,19 +40,19 @@ export const metadata: Metadata = {
     siteName: "Fida & Sufair Wedding",
     images: [
       {
-        url: "/fsog.png",
+        url: "/fsog-lc.jpg",
         width: 1200,
         height: 630,
-        alt: "Fida & Sufair Wedding Invitation",
+        alt: "Fida & Sufair's Wedding Invitation",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fida & Sufair — Wedding Invitation",
+    title: "Fida & Sufair's Wedding Invitation",
     description:
       "Join us in celebrating the union of Fida & Sufair. Nikah on May 17, 2025.",
-    images: ["/fsog.png"],
+    images: ["/fsog-lc.jpg"],
   },
 };
 
