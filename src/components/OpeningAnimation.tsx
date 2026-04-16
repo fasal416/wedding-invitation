@@ -32,7 +32,7 @@ export default function OpeningAnimation({
             transition={{ duration: 1.2, ease: [0.76, 0, 0.24, 1] }}
           >
             {/* Pattern on left door */}
-            <div className="absolute inset-0 opacity-10">
+            <div className="absolute inset-0 opacity-25">
               <svg width="100%" height="100%" className="text-gold">
                 <defs>
                   <pattern
@@ -71,7 +71,7 @@ export default function OpeningAnimation({
             exit={{ x: "100%" }}
             transition={{ duration: 1.2, ease: [0.76, 0, 0.24, 1] }}
           >
-            <div className="absolute inset-0 opacity-10">
+            <div className="absolute inset-0 opacity-25">
               <svg width="100%" height="100%" className="text-gold">
                 <defs>
                   <pattern

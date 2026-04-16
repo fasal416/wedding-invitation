@@ -69,7 +69,7 @@ export default function HeroSection() {
 
         {/* Corner ornaments */}
         <svg
-          className="absolute top-8 left-8 w-24 h-24 text-gold/15"
+          className="absolute top-8 left-8 w-24 h-24 text-gold/35"
           viewBox="0 0 100 100"
         >
           <path
@@ -87,7 +87,7 @@ export default function HeroSection() {
           <circle cx="50" cy="50" r="3" fill="currentColor" opacity="0.6" />
         </svg>
         <svg
-          className="absolute top-8 right-8 w-24 h-24 text-gold/15 scale-x-[-1]"
+          className="absolute top-8 right-8 w-24 h-24 text-gold/35 scale-x-[-1]"
           viewBox="0 0 100 100"
         >
           <path
@@ -199,7 +199,7 @@ export default function HeroSection() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 3.5, duration: 1 }}
-          className="absolute -bottom-22 left-1/2 -translate-x-1/2"
+          className="hidden md:block absolute -bottom-22 left-1/2 -translate-x-1/2"
         >
           <motion.div
             animate={{ y: [0, 12, 0] }}
