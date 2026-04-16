@@ -10,6 +10,7 @@ import GallerySection from "@/components/GallerySection";
 import VenueSection from "@/components/VenueSection";
 import FooterSection from "@/components/FooterSection";
 import FloatingParticles from "@/components/FloatingParticles";
+import StorySection from "@/components/StorySection";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,8 +29,8 @@ export default function Home() {
           <main className="relative z-10">
             <HeroSection />
             <EventDetails />
+            <StorySection />
             <FamiliesSection />
-            {/* <GallerySection /> */}
             <VenueSection />
             <FooterSection />
           </main>
