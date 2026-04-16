@@ -84,7 +84,7 @@ export default function HeroSection() {
             stroke="currentColor"
             strokeWidth="0.5"
           />
-          <circle cx="50" cy="50" r="3" fill="currentColor" opacity="0.3" />
+          <circle cx="50" cy="50" r="3" fill="currentColor" opacity="0.6" />
         </svg>
         <svg
           className="absolute top-8 right-8 w-24 h-24 text-gold/15 scale-x-[-1]"
@@ -118,7 +118,7 @@ export default function HeroSection() {
           className="mb-6"
         >
           <p
-            className="font-[family-name:var(--font-amiri)] text-3xl text-emerald-dark leading-relaxed"
+            className="font-[family-name:var(--font-amiri)] text-2xl text-emerald-dark leading-relaxed"
             dir="rtl"
           >
             بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
@@ -127,43 +127,42 @@ export default function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="font-[family-name:var(--font-cormorant)] text-sm md:text-base text-warm-gray mt-3 tracking-[0.2em] uppercase"
+            className="font-[family-name:var(--font-cormorant)] text-xs md:text-base text-warm-gray mt-3 tracking-[0.2em] uppercase"
           >
             In the name of Allah, the Most Gracious, the Most Merciful
           </motion.p>
         </motion.div>
 
-        <OrnamentalDivider className="mb-6" symbol="•" />
+        <OrnamentalDivider className="mb-4" symbol="•" />
 
         {/* Invitation text */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.8 }}
-          className="font-[family-name:var(--font-cormorant)] text-base md:text-lg text-warm-gray tracking-[0.15em] uppercase mb-6"
+          className="font-[family-name:var(--font-cormorant)] text-sm md:text-base text-warm-gray tracking-[0.15em] uppercase mb-6"
         >
           Together with their families
         </motion.p>
 
         {/* Couple Names */}
-        <div className="mb-2">
+        <div className="mb-1 flex gap-2 justify-center items-end">
           <h1 className="font-[family-name:var(--font-playfair)] text-5xl md:text-7xl  font-light text-charcoal tracking-wide">
             <AnimatedName name="Fida" />
-          </h1>
+          </h1>{" "}
+          <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 1.8, duration: 0.6, ease: "backOut" }}
+            className="my-1 md:my-4"
+          >
+            <span className="relative top-3 gold-shimmer font-[family-name:var(--font-amiri)] text-5xl md:text-6xl">
+              &
+            </span>
+          </motion.div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 1.8, duration: 0.6, ease: "backOut" }}
-          className="my-2 md:my-4"
-        >
-          <span className="gold-shimmer font-[family-name:var(--font-amiri)] text-3xl md:text-4xl">
-            &
-          </span>
-        </motion.div>
-
-        <div className="mb-8">
+        <div className="mb-6">
           <h1 className="font-[family-name:var(--font-playfair)] text-5xl md:text-7xl  font-light text-charcoal tracking-wide">
             <AnimatedName name="Sufair" />
           </h1>
@@ -179,7 +178,7 @@ export default function HeroSection() {
           className="max-w-xl mx-auto"
         >
           <p
-            className="font-[family-name:var(--font-amiri)] text-xl text-emerald leading-loose mb-1"
+            className="font-[family-name:var(--font-amiri)] text-lg text-emerald leading-loose mb-1"
             dir="rtl"
           >
             وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا

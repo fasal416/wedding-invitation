@@ -96,7 +96,7 @@ export default function EventDetails() {
 
       <div className="relative z-10 max-w-5xl mx-auto">
         {/* Section heading */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -113,7 +113,7 @@ export default function EventDetails() {
             Celebration Details
           </h2>
           <OrnamentalDivider symbol="✧" />
-        </motion.div>
+        </motion.div> */}
 
         {/* Countdown */}
         <motion.div
