@@ -32,9 +32,9 @@ export const metadata: Metadata = {
     icon: "/favicon.png",
   },
   openGraph: {
-    title: "Fida & Sufair — Wedding Invitation",
+    title: "Fida & Sufair | Wedding Invitation",
     description:
-      "Join us in celebrating the union of Fida & Sufair. Nikah on May 17, 2025.",
+      "With heartfelt joy, you are invited to the auspicious Nikah of Fida & Sufair on May 17, 2026.",
     url: "https://you-are-invited-beige.vercel.app",
     type: "website",
     siteName: "Fida & Sufair Wedding",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Fida & Sufair's Wedding Invitation",
     description:
-      "Join us in celebrating the union of Fida & Sufair. Nikah on May 17, 2025.",
+      "With heartfelt joy, you are invited to the auspicious Nikah of Fida & Sufair on May 17, 2026.",
     images: ["/fsogt.jpg"],
   },
 };
