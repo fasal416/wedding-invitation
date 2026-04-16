@@ -58,7 +58,7 @@ function EventCard({
             <div className="flex items-center justify-center gap-3 text-warm-gray">
               <Calendar className="w-4 h-4 text-gold" />
               <span className="font-[family-name:var(--font-cormorant)] text-lg">
-                Saturday, May 17, 2026
+                Sunday, May 17, 2026
               </span>
             </div>
 
