@@ -25,7 +25,7 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://you-are-invited-beige.vercel.app"),
-  title: "Fida & Sufair — Wedding Invitation",
+  title: "Fida & Sufair | Wedding Invitation",
   description:
     "You are cordially invited to the Nikah ceremony of Fida Shamsuddin & Sufair Ali on May 17, 2025 at Kodakad Bank Auditorium, Kasargod, Kerala.",
   icons: {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "Fida & Sufair Wedding",
     images: [
       {
-        url: "/fsog-lc.jpg",
+        url: "/fsogt.jpg",
         width: 1200,
         height: 630,
         alt: "Fida & Sufair's Wedding Invitation",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Fida & Sufair's Wedding Invitation",
     description:
       "Join us in celebrating the union of Fida & Sufair. Nikah on May 17, 2025.",
-    images: ["/fsog-lc.jpg"],
+    images: ["/fsogt.jpg"],
   },
 };
 
