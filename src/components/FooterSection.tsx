@@ -82,7 +82,7 @@ export default function FooterSection() {
             </span>
           </div>
           <p className="font-[family-name:var(--font-cormorant)] text-blush tracking-[0.15em] text-sm">
-            17 . 05 . 2025
+            17 . 05 . 2026
           </p>
         </motion.div>
 
